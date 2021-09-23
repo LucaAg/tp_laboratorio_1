@@ -13,6 +13,7 @@
 #include "bibliotecaCalcu.h"
 
 
+
 int main(void)
 {
 	setbuf(stdout,NULL);
