@@ -114,10 +114,6 @@ void valorFinal(int a,int b, int* pV);
 /**
  * @fn int setFlag(int*, int)
  * @brief Esta funcion recibe un puntero a entero, y un entero. Luego, retorna un entero.
- * Esta funcion valida que la bandera no este igualada a NULL, y que su valor sea entre 0 y 1.
- * Ademas, esta funcion nos permite que el usuario deba respetar cierto orden establecido a la hora de ingresar los datos.
- * Por ende el usuario no podra, por ejemplo, ingresar el operando 2, sin haber ingreasdo el primero. Ingresar la suma de los valores
- * sin haber ingresado el operando 1 y 2. Y además tampoco lograra llamar a la opcion 4, sin antes llamar a las otras 3 opciones.
  *
  * @param bandera Espacio donde se guarda el valor 0 o 1, que valida las acciones del usuario.
  * @param valor Espacio donde ingreso el valor 0 o 1, que se guardará en la bandera.
