@@ -33,6 +33,7 @@ int main(void)
 
 	do
 	{
+		system("cls");
 		switch(menu(operando1,operando2))
 		{
 			case 1:
@@ -131,6 +132,8 @@ int main(void)
 				printf("Opción invalida!\n\n");
 				break;
 		}
+
+		system("pause");
 
 	}while(seguir=='s');
 
