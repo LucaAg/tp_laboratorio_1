@@ -1,6 +1,11 @@
 #ifndef EMPLOYEES_H_
 #define EMPLOYEES_H_
 
+/**
+ * @struct
+ * @brief Estructura de los datos de empleados/as.
+ *
+ */
 struct
 {
 	int id;
