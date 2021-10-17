@@ -104,6 +104,7 @@ int main(void)
 				break;
 			default:
 				printf("Error, opcion no valida!\n");
+				fflush(stdin);
 				break;
 		}
 		system("pause");
