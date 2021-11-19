@@ -662,8 +662,6 @@ int controller_reemplazarEmpleado(LinkedList* pArrayListEmployee)
 				controller_ListEmployee(pArrayListEmployee);
 				printf("Se ha reemplazado al empleado correctamente!\n");
 				controller_guardarId(id);
-				free(aux2);
-				free(auxEmployee);
 				todoOk=1;
 			}
 			else
@@ -740,8 +738,6 @@ int controller_agregarEmpPosicion(LinkedList* pArrayListEmployee)
 				controller_ListEmployee(pArrayListEmployee);
 				printf("Se ha ubicado al nuevo empleado correctamente!\n");
 				controller_guardarId(id);
-				free(aux2);
-				free(auxEmployee);
 				todoOk=1;
 			}
 			else
