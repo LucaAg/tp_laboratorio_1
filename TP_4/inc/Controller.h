@@ -122,13 +122,34 @@ int controller_siguienteId();
  * @brief Busca el primer empleado con menor sueldo y lo elimina.
  *
  * @param pArrayListEmployee puntero a estructura de la lista de empleados LinkedList.
- * @return
+ * @return todoOk(0) si hay error. todoOk(1) Si no hay error.
  */
 int controller_eliminarEmpleadoMenosCaro(LinkedList* pArrayListEmployee);
 
+/**
+ * @fn int controller_subList(LinkedList*)
+ * @brief  Crea una sublista desde el indice inicial,pedido al usuario, hasta el indice final indicado por el usuario.
+ *
+ * @param pArrayListEmployee puntero a estructura de la lista de empleados LinkedList.
+ * @return todoOk(0) si hay error. todoOk(1) Si no hay error.
+ */
 int controller_subList(LinkedList* pArrayListEmployee);
 
+/**
+ * @fn int controller_reemplazarEmpleado(LinkedList*)
+ * @brief Carga un nuevo empleado y lo reemplaza sobre el indice indicado.
+ *
+ * @param pArrayListEmployee puntero a estructura de la lista de empleados LinkedList.
+ * @return todoOk(0) si hay error. todoOk(1) Si no hay error.
+ */
 int controller_reemplazarEmpleado(LinkedList* pArrayListEmployee);
 
+/**
+ * @fn int controller_agregarEmpPosicion(LinkedList*)
+ * @brief Agrega un empleado en el indice indicado por el usuario y anida a todos los demas.
+ *
+ * @param pArrayListEmployee puntero a estructura de la lista de empleados LinkedList.
+ * @return todoOk(0) si hay error. todoOk(1) Si no hay error.
+ */
 int controller_agregarEmpPosicion(LinkedList* pArrayListEmployee);
 #endif // CONTROLLER_H_INCLUDED
