@@ -117,6 +117,13 @@ void controller_guardarId(int currentId);
  */
 int controller_siguienteId();
 
+/**
+ * @fn int controller_eliminarEmpleadoMenosCaro(LinkedList*)
+ * @brief Busca el primer empleado con menor sueldo y lo elimina.
+ *
+ * @param pArrayListEmployee puntero a estructura de la lista de empleados LinkedList.
+ * @return
+ */
 int controller_eliminarEmpleadoMenosCaro(LinkedList* pArrayListEmployee);
 
 int controller_subList(LinkedList* pArrayListEmployee);
